@@ -1,5 +1,81 @@
+/* google font import link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* universal style */
 *{
     max-width: 1920px;
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* header section */
+/* navbar */
+.navbar{
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 15px 50px gray;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo img{
+    width: 200px;
+}
+
+
+.menu{
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #575757;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color: #1D4ED8;
+    
+    
+}
+
+.register-btn{
+    width: 100%;
+    text-align: end;
+}
+
+.register-btn button{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.register-btn button:hover{
+    background-color: #575757;
+    
 }
