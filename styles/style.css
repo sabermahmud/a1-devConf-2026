@@ -21,7 +21,6 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    box-shadow: 5px 15px 50px gray;
 }
 
 .logo{
@@ -42,15 +41,14 @@ body{
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 .menu a{
     text-decoration: none;
     color: #575757;
     font-weight: 600;
-    transition: 0.5s;
+    transition: all 0.5s ease;
 }
 
 .menu a:hover{
@@ -72,10 +70,58 @@ body{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-    transition: 0.5s;
+    transition: all 0.5s ease;
 }
 
 .register-btn button:hover{
     background-color: #575757;
     
+}
+
+
+/* ---------------------------------------------- */
+/* hero section */
+.hero-container{
+    margin: 0 auto;
+    background-image: url(/imgs/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100svh;
+    
+}
+
+.overlay{
+    width: 100%;
+    min-height: 100svh;
+    background: linear-gradient(#000000c0, #00000033);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #FFFFFF;
+    font-size: 80px;
+}
+
+.hero-description{
+    margin-top: 16px;
+    color: #ffffffbe;
+    max-width: 825px;
+    font-size: 22px;
+    text-align: center; 
+}
+
+.cta-btn{
+    margin-top: 350px;
+    font-size: 24px;
+    text-align: center;
+    padding: 25px 60px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
 }
