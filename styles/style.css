@@ -125,3 +125,44 @@ body{
     border: none;
     border-radius: 20px;
 }
+
+
+
+
+
+
+
+
+
+/* footer section */
+footer{
+    margin: 0 auto;
+    background-color: #0D1B2A;
+    color: #ffffff3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
+
+.footer-right{
+    width: 100%;
+    text-align: end;
+}
+.footer-right p{
+    margin: 10px;
+}
+
+
+.footer-middle{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-left{
+    width: 100%;
+}
+
+
