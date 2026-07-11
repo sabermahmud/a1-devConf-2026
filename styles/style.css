@@ -3,7 +3,7 @@
 
 /* universal style */
 *{
-    max-width: 1920px;
+    max-width: 1480px;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;    
@@ -48,7 +48,7 @@ body{
     text-decoration: none;
     color: #575757;
     font-weight: 600;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 .menu a:hover{
@@ -126,6 +126,71 @@ body{
     border-radius: 20px;
 }
 
+/* ---------------------------------------------------- */
+/* *********  main section start *************/
+/* meet our speakers */
+
+.sp-section{
+    width: full;
+    padding: 100px;
+}
+
+.sp-section>h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+.sp-card-container{
+    width: full;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sp-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #575757;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.sp-card>img{
+    width: 100%;
+    object-fit:cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.card-body{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    align-items: start;
+    line-height: 30px;
+}
+.card-body a{
+    color: #3f6ae0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.card-body p{
+    color: #00000081;
+    font-size: 14px;
+}
+
+
+
+
 
 
 
@@ -143,7 +208,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
-    padding: 15px 10px;
+    padding: 15px 100px;
 }
 
 
@@ -163,6 +228,10 @@ footer{
 
 .footer-left{
     width: 100%;
+}
+
+.footer-left img{
+    width: 200px;
 }
 
 
