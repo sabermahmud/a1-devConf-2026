@@ -1,0 +1,2 @@
+You are a developer building a conference website. You have already added a navbar, a hero section, an About Speakers section, a booking section, and a footer. Now tell me: if you were to add one more section, which section would you add, and why?
+ls describe me the schedule section
