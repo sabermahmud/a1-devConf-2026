@@ -131,19 +131,19 @@ body {
 /* *********  main section start *************/
 /* meet our speakers */
 
-.sp-section {
+.speakers-section {
     width: 100%;
     padding: 100px;
 }
 
-.sp-section>h2 {
+.speakers-section>h2 {
     font-size: 40px;
     text-align: center;
     margin: 40px;
 }
 
 
-.sp-card-container {
+.speakers-card-container {
     width: full;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -152,7 +152,7 @@ body {
     margin: 0 auto;
 }
 
-.sp-card {
+.speakers-card {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ body {
     gap: 10px;
 }
 
-.sp-card>img {
+.speakers-card>img {
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -193,25 +193,25 @@ body {
 
 /* ********************************************** */
 /* ----------------- secure yor spot ------------- */
-.scr-section {
+.booking-section {
     width: 100%;
     padding: 100px;
 }
 
-.scr-section h2 {
+.booking-section h2 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.scr-section>p {
+.booking-section>p {
     font-size: 16px;
     text-align: center;
     margin: 15px 0 40px 0;
     color: #575757;
 }
 
-.booking-card-container {
+.booking-cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@ body {
 }
 
 
-.scr-card {
+.booking-card {
     border: 1px solid #E5E7EB;
     width: 100%;
     padding: 50px;
