@@ -83,7 +83,7 @@ body{
 /* hero section */
 .hero-container{
     margin: 0 auto;
-    background-image: url(/imgs/banner.jpg);
+    background-image: url(./imgs/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100svh;
