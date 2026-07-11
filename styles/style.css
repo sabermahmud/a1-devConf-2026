@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* universal style */
-*{
+* {
     max-width: 1480px;
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Inter", sans-serif;
 }
 
 /* header section */
 /* navbar */
-.navbar{
+.navbar {
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
@@ -23,46 +23,46 @@ body{
     background-color: white;
 }
 
-.logo{
+.logo {
     width: 100%;
 }
 
-.logo img{
+.logo img {
     width: 200px;
 }
 
 
-.menu{
+.menu {
     width: 100%;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     text-align: center;
-    font-size: 20px;   
+    font-size: 20px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: #575757;
     font-weight: 600;
     transition: all 0.4s ease;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #1D4ED8;
-    
-    
+
+
 }
 
-.register-btn{
+.register-btn {
     width: 100%;
     text-align: end;
 }
 
-.register-btn button{
+.register-btn button {
     padding: 12px 40px;
     border: none;
     border-radius: 10px;
@@ -73,24 +73,24 @@ body{
     transition: all 0.5s ease;
 }
 
-.register-btn button:hover{
+.register-btn button:hover {
     background-color: #575757;
-    
+
 }
 
 
 /* ---------------------------------------------- */
 /* hero section */
-.hero-container{
+.hero-container {
     margin: 0 auto;
-    background-image: url(./imgs/banner.jpg);
+    background-image: url(/imgs/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100svh;
-    
+
 }
 
-.overlay{
+.overlay {
     width: 100%;
     min-height: 100svh;
     background: linear-gradient(#000000c0, #00000033);
@@ -101,20 +101,20 @@ body{
     align-items: center;
 }
 
-.hero-heading{
+.hero-heading {
     color: #FFFFFF;
     font-size: 80px;
 }
 
-.hero-description{
+.hero-description {
     margin-top: 16px;
     color: #ffffffbe;
     max-width: 825px;
     font-size: 22px;
-    text-align: center; 
+    text-align: center;
 }
 
-.cta-btn{
+.cta-btn {
     margin-top: 350px;
     font-size: 24px;
     text-align: center;
@@ -130,28 +130,28 @@ body{
 /* *********  main section start *************/
 /* meet our speakers */
 
-.sp-section{
+.sp-section {
     width: full;
     padding: 100px;
 }
 
-.sp-section>h2{
+.sp-section>h2 {
     font-size: 40px;
     text-align: center;
     margin: 40px;
 }
 
 
-.sp-card-container{
+.sp-card-container {
     width: full;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     align-items: center;
     margin: 0 auto;
 }
 
-.sp-card{
+.sp-card {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -162,28 +162,29 @@ body{
     gap: 10px;
 }
 
-.sp-card>img{
+.sp-card>img {
     width: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 20px 20px 0 0;
 
 }
 
-.card-body{
+.card-body {
     width: 100%;
     margin: 0;
     padding: 10px;
     align-items: start;
     line-height: 30px;
 }
-.card-body a{
+
+.card-body a {
     color: #3f6ae0;
     text-decoration: none;
     font-weight: 600;
     font-size: 12px;
 }
 
-.card-body p{
+.card-body p {
     color: #00000081;
     font-size: 14px;
 }
@@ -191,25 +192,25 @@ body{
 
 /* ********************************************** */
 /* ----------------- secure yor spot ------------- */
-.scr-section{
+.scr-section {
     width: full;
     padding: 100px;
 }
 
-.scr-section h2{
+.scr-section h2 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.scr-section>p{
+.scr-section>p {
     font-size: 16px;
     text-align: center;
     margin: 15px 0 40px 0;
     color: #575757;
 }
 
-.booking-card-container{
+.booking-card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,24 +219,24 @@ body{
 }
 
 
-.scr-card{
+.scr-card {
     border: 1px solid #000000;
     width: 100%;
     padding: 50px;
     border-radius: 20px;
 }
 
-.pricing-part h3{
+.pricing-part h3 {
     font-size: 44px;
 }
 
-.badge{
+.badge {
     color: #575757;
     font-size: 14px;
 }
 
 
-.action-btn{
+.action-btn {
     width: 100%;
     background: transparent;
     color: #575757;
@@ -248,48 +249,48 @@ body{
 
 
 
-.standard-card{
+.standard-card {
     background: transparent;
     border: 2px solid #57575759;
 }
 
-.pro-card{
+.pro-card {
     background-color: #000000;
     color: #ffffff93;
 }
 
-.pro-card .pricing-part h3{
+.pro-card .pricing-part h3 {
     color: #FFFFFF;
     font-size: 44px;
 }
 
-.pricing-part{
+.pricing-part {
     margin-bottom: 40px;
 }
 
-.pro-card .badge{
+.pro-card .badge {
     color: #93C5FD;
     font-size: 14px;
 }
 
 
-.facility-list{
+.facility-list {
     margin-bottom: 20px;
     color: #575757;
-    list-style:square
+    list-style: square
 }
 
-.facility-list li{
+.facility-list li {
     margin-top: 15px;
 }
 
 
-.pro-facility-list{
+.pro-facility-list {
     color: #cfcdcd;
 }
 
 
-.pro-action-btn{
+.pro-action-btn {
     width: 100%;
     background-color: #1D4ED8;
     color: #FFFFFF;
@@ -301,9 +302,78 @@ body{
 }
 
 
-.team-card{
+.team-card {
     background-color: #5757571c;
     border: none;
+}
+
+
+
+/* ************************************ */
+/* -------------- schedule section -------------*/
+
+.schedule-section {
+    width: full;
+    padding: 100px;
+}
+
+.schedule-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.schedule-section p {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 40px 0;
+    color: #575757;
+}
+
+.schedule-cards-container {
+    width: full;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.schedule-card{
+    width: 100%;
+    background: #dbd7d781;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+   width: 100%;
+    padding: 10px;
+    text-align: left;
+    border-right: 1px solid #575757;
+}
+
+
+.name p{
+    font-size: 16px;
+    color: #666565
+}
+
+.time-topic{
+padding: 10px;
+}
+
+.time-topic .time{
+    color: #3f6ae0;
+    font-weight: 700;
+}
+
+.time-topic p{
+    padding: 0;
+    margin: 10px;
 }
 
 
@@ -318,10 +388,10 @@ body{
 
 
 /* footer section */
-footer{
+footer {
     margin: 0 auto;
     background-color: #0D1B2A;
-    color: #ffffff3a;
+    color: #a09f9f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -330,26 +400,25 @@ footer{
 }
 
 
-.footer-right{
+.footer-right {
     width: 100%;
     text-align: end;
 }
-.footer-right p{
+
+.footer-right p {
     margin: 10px;
 }
 
 
-.footer-middle{
+.footer-middle {
     width: 100%;
     text-align: center;
 }
 
-.footer-left{
+.footer-left {
     width: 100%;
 }
 
-.footer-left img{
+.footer-left img {
     width: 200px;
 }
-
-
