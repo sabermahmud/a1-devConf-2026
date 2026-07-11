@@ -189,6 +189,124 @@ body{
 }
 
 
+/* ********************************************** */
+/* ----------------- secure yor spot ------------- */
+.scr-section{
+    width: full;
+    padding: 100px;
+}
+
+.scr-section h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.scr-section>p{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 40px 0;
+    color: #575757;
+}
+
+.booking-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
+.scr-card{
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.pricing-part h3{
+    font-size: 44px;
+}
+
+.badge{
+    color: #575757;
+    font-size: 14px;
+}
+
+
+.action-btn{
+    width: 100%;
+    background: transparent;
+    color: #575757;
+    padding: 11px;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.standard-card{
+    background: transparent;
+    border: 2px solid #57575759;
+}
+
+.pro-card{
+    background-color: #000000;
+    color: #ffffff93;
+}
+
+.pro-card .pricing-part h3{
+    color: #FFFFFF;
+    font-size: 44px;
+}
+
+.pricing-part{
+    margin-bottom: 40px;
+}
+
+.pro-card .badge{
+    color: #93C5FD;
+    font-size: 14px;
+}
+
+
+.facility-list{
+    margin-bottom: 20px;
+    color: #575757;
+    list-style:square
+}
+
+.facility-list li{
+    margin-top: 15px;
+}
+
+
+.pro-facility-list{
+    color: #cfcdcd;
+}
+
+
+.pro-action-btn{
+    width: 100%;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.team-card{
+    background-color: #5757571c;
+    border: none;
+}
+
+
 
 
 
