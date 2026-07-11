@@ -3,13 +3,14 @@
 
 /* universal style */
 * {
-    max-width: 1480px;
+    
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    max-width: 1480px;
     font-family: "Inter", sans-serif;
 }
 
@@ -48,7 +49,7 @@ body {
     text-decoration: none;
     color: #575757;
     font-weight: 600;
-    transition: all 0.4s ease;
+    transition: color 0.3s ease;
 }
 
 .menu a:hover {
@@ -70,7 +71,7 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-    transition: all 0.5s ease;
+    transition: background-color 0.3s ease;
 }
 
 .register-btn button:hover {
@@ -83,10 +84,10 @@ body {
 /* hero section */
 .hero-container {
     margin: 0 auto;
-    background-image: url(/imgs/banner.jpg);
+    background-image: url(./../imgs/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100svh;
+    min-height: 100vh;
 
 }
 
@@ -131,7 +132,7 @@ body {
 /* meet our speakers */
 
 .sp-section {
-    width: full;
+    width: 100%;
     padding: 100px;
 }
 
@@ -155,7 +156,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid #575757;
+    border: 1px solid #E5E7EB;
     border-radius: 20px;
     padding: 0;
     margin: 0;
@@ -193,7 +194,7 @@ body {
 /* ********************************************** */
 /* ----------------- secure yor spot ------------- */
 .scr-section {
-    width: full;
+    width: 100%;
     padding: 100px;
 }
 
@@ -220,7 +221,7 @@ body {
 
 
 .scr-card {
-    border: 1px solid #000000;
+    border: 1px solid #E5E7EB;
     width: 100%;
     padding: 50px;
     border-radius: 20px;
@@ -313,7 +314,7 @@ body {
 /* -------------- schedule section -------------*/
 
 .schedule-section {
-    width: full;
+    width: 100%;
     padding: 100px;
 }
 
